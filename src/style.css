@@ -1,7 +1,10 @@
 body {
-  background-color: #512b81;
+  background-color: #3b1e54;
   font-family: "Merriweather", serif;
   color: #fdffab;
+  background-image: url("https://images.pexels.com/photos/8715631/pexels-photo-8715631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: 50%;
+  background-repeat: repeat;
 }
 a {
   color: #fdffab;

@@ -22,12 +22,21 @@ h1 {
 header {
   margin-bottom: 30px;
 }
-form {
-  padding: 30px;
+.form_container {
+  padding: 15px 20px;
   background-color: #9575de;
   border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 30px 0px rgb(214, 109, 214);
+}
+form {
   display: flex;
-  margin-bottom: 20px;
+}
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: 12px;
+  opacity: 0.6;
 }
 .input_element {
   padding: 16px;
@@ -50,14 +59,32 @@ form {
 }
 .recipe {
   font-size: 16px;
-  background-color: #d10363;
-  color: #f8f9d7;
+  background-image: url("https://media.istockphoto.com/id/1902778637/photo/vintage-graph-paper-background.jpg?s=612x612&w=0&k=20&c=BM-K5pUZh8yGhx34YAKs8IlDix22LEF7F-TOJNnAgTU=");
+  color: #21211e;
   padding: 20px;
   line-height: 2;
   border-left: 3px solid rgb(36, 23, 65);
   box-shadow: 0px 4px 30px 0px rgb(214, 109, 214);
 }
+.hidden {
+  display: none;
+}
 footer {
   text-align: center;
   margin-top: 30px;
+  background-color: #3b1e54;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
